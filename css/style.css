@@ -39,7 +39,13 @@ a:hover, a:focus {
 }
 ul, ol {
 	list-style: none;
+	list-style-position: inside;
 }
+
+ul li {
+    list-style-type: circle;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
